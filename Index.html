@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Html Form</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div class="container">
+  <div class="title"><h2>Html Form</h2></div>  
+ <form>
+ <div class="form-group">
+ <label for="fname">First Name:</label><br/>
+ <input
+ type="text"
+ id="fname"
+ name="fname"
+ value="Rabiul"
+ placeholder="Enter your name"
+ class="form-control"/>
+</div>
+<!--here id is used with label to focused in the form as a cursor when clicked on the First name text-->
+<!-- default value is "Rabiul"-->
+<!-- here name is used to extract data from backend if i don't use that it will works -->
+
+<div class="form-group">
+  <label for="lname">Last Name:</label><br/>
+  <input
+  type="text"
+  id="lname"
+  name="lname"
+  value="Akand"
+  placeholder="Enter your name"
+  class="form-control"/>
+ </div>
+
+ <div class="form-group">
+  <label for="email " required >Email:</label><br/>
+  <input
+  type="email"
+  id="eamil" 
+  name="email"
+ 
+  class="form-control"/>
+ </div>
+
+ <div class="form-group">
+  <label for="password" required>Password:</label><br/>
+  <input
+  type="password"
+  id="password"
+  name="password"
+  placeholder="Enter your password"
+  class="form-control"/>
+ </div>
+
+ <div class="form-group">
+ <input type="submit" value="submit" class="submit-btn"/>
+
+ </div>
+
+
+
+
+</form>
+
+
+  </div>
+
+
+</html>

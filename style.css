@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 700px;
+  box-shadow: 5px 3px 5px 5px #666;
+
+  margin: 2rem auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.title h2 {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+}
+form {
+  margin-top: 2rem;
+}
+.form-group {
+  background-color: #8758ff;
+  padding: 1rem 2rem;
+  /* label and input included in form group */
+}
+.form-control {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  margin-top: 0.5rem;
+  /*to design input elements (box) */
+}
+.submit-btn {
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  background-color: #7dce13;
+  color: black;
+  font-weight: bold;
+  border: none;
+}
+.submit-btn:hover {
+  cursor: pointer;
+}
